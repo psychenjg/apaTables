@@ -18,10 +18,10 @@ apa.cor.table<-function(data,filename=NA,table.number=NA, show.conf.interval=TRU
      data <- as.data.frame(data)
      table_number <- table.number
 
-     if (show.conf.interval==FALSE) {
-          cat("The ability to suppress reporting of reporting confidence intervals has been deprecated in this version.\nThe function argument show.conf.interval will be removed in a later version.\n")
-     }
-     show.conf.interval = TRUE
+     # if (show.conf.interval==FALSE) {
+     #      cat("The ability to suppress reporting of reporting confidence intervals has been deprecated in this version.\nThe function argument show.conf.interval will be removed in a later version.\n")
+     # }
+     # show.conf.interval = TRUE
      show_conf_interval <- show.conf.interval
 
      if (is.na(filename)) {
